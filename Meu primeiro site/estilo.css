@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /** Reset CSS - Irá retirar a formatação automática que o navegador aplica! **/
+
+header#cabecalho-topo{
+    background-color: #7fffd4;
+    text-align: center;
+}
+
+main{
+    width: 70%;
+    min-height: 400px;
+    background-color: blue;
+    margin: 0 auto; //** centralizando com a margem */
+}
+
+footer{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+#grupo-postagens{
+    padding: 10px;
+}
+
+article{
+    background-color: floralwhite;
+    padding: 10px;
+    margin-bottom:10px ;
+}
+
+header.titulo-postagem{
+    text-transform: uppercase;
+    border-bottom: dashed black 2px;
+    margin-bottom: 10px;
+}
