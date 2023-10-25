@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            color: white;
+        }
+      
+        .tras{
+            background-color: brown;
+        }
+        .meio{
+            background-color: blueviolet;
+            top:30px;
+            left: 30px;
+          
+        }
+        .frente{
+            background-color: cadetblue;
+            top:60px;
+            left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tras"><p>z-index:1</p></div>
+    <div class="meio"><p>z-index:2</p></div>
+    <div class="frente"><p>z-index:1</p></div>
+</body>
+</html>
