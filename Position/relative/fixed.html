@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .pai {
+            background: #a2f0fa;
+            height: 100px;
+        }
+
+        .pai2 {
+            margin-top: 1000px;
+            background: #7fffd4;
+            height: 300px;
+        }
+
+        .pai .filho {
+            background: #15996d;
+            color: #fff;
+            height: 100px;
+            width: 300px;
+            position: fixed;
+            top: 30px;
+            left: 300px;
+        }
+
+        .pai2 .filho {
+            background: pink;
+            color: #fff;
+            height: 100px;
+            width: 300px;
+            position: relative;
+            top: 60px;
+            left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="pai">
+        <div class="filho">
+            Elemento filho
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A officia, assumenda dolorum tempore omnis, deserunt
+            necessitatibus maxime veritatis molestiae similique reprehenderit quia quidem corrupti aut nostrum dolore
+            itaque culpa accusantium.
+            Natus deleniti atque aliquam velit sit ea rem autem ipsum facere saepe. Ipsam illum eaque labore. Qui, ipsam
+            vel! Numquam impedit consequatur corporis suscipit debitis modi eius porro iste exercitationem.
+    </div>
+
+    <div class="pai2">
+        <div class="filho">
+            Elemento filho
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A officia, assumenda dolorum tempore omnis, deserunt
+            necessitatibus maxime veritatis molestiae similique reprehenderit quia quidem corrupti aut nostrum dolore
+            itaque culpa accusantium.
+            Natus deleniti atque aliquam velit sit ea rem autem ipsum facere saepe. Ipsam illum eaque labore. Qui, ipsam
+            vel! Numquam impedit consequatur corporis suscipit debitis modi eius porro iste exercitationem.
+    </div>
+
+</body>
+
+</html>
